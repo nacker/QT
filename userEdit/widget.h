@@ -12,6 +12,7 @@
 #include <QHBoxLayout>
 #include <QVBoxLayout>
 #include <QGridLayout>
+#pragma execution_character_set("utf-8")
 
 class Widget : public QWidget
 {
@@ -25,7 +26,7 @@ private:
 
     /** 左侧*/
     QLabel *UserNameLabel; QLineEdit *UserNameLineEdit;
-    QLabel *NameLabel; QLineEdit NameLineEdit;
+    QLabel *NameLabel; QLineEdit *NameLineEdit;
     QLabel *SexLabel; QComboBox *SexComboBox;
     QLabel *DepartmentLabel; QTextEdit *DepartmentTextEdit;
     QLabel *AgeLabel; QLineEdit *AgeLineEdit;
